@@ -1,6 +1,6 @@
 # Encriptador de Texto
 
-_Este proyecto es el Challenge de Encripador de Texto promovido por Alura Latam y Oracle Next Education dentro del Programa One _
+_Este proyecto es el Challenge de Encripador de Texto promovido por Alura Latam y Oracle Next Education dentro del Programa One ._
 
 ## Comenzando 🚀
 
