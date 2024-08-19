@@ -1,0 +1,161 @@
+:root {
+    --color-principal: #674188;
+    --color-secundario: #C8A1E0;
+    --color-fondo: #F7EFE5;
+    --color-hover: #E2BFD9;
+}
+
+* {
+    font-family: "Oswald", sans-serif; /* font-weight: 200 al 700*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--color-fondo);
+}
+
+.inicio{
+    padding: 2% 0% 0% 10%;
+}
+
+.inicio__logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+.cuerpo{
+    display: flex;
+    padding: 5% 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cuerpo__encriptador-principal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.cuerpo__encriptador-principal__texto{
+    border: none;
+    color: var(--color-principal);
+    width: 400px;
+    font-size: 2rem;
+    background-color: var(--color-fondo);
+    margin-top: 10%;
+    text-transform: lowercase;
+}
+::placeholder {color: var(--color-principal);}
+    .cuerpo__encriptador-principal__texto:focus {
+        outline: none;
+    }
+
+.cuerpo__encriptador-principal__alerta {
+    display: flex;
+    gap: 10px;
+}
+
+.cuerpo__encriptador-principal__informacion{
+    font-size: 1rem;
+}    
+.cuerpo__encriptador-principal__botones{
+    display: flex;
+    margin-top: 18px;
+    gap: 16px;
+}
+    
+.btn-encriptar{
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-principal);
+    border-radius: 24px;
+    color: var(--color-principal);
+    cursor: pointer;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 0;
+}
+    
+.btn-encriptar:hover{
+    background-color: var(--color-fondo);
+}
+    
+.btn-desencriptar{
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-principal);
+    border-radius: 24px;
+    color: var(--color-principal);
+    cursor: pointer;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 0;
+}
+    
+.btn-desencriptar:hover{
+    background-color: var(--color-secundario);
+}
+       
+.cuerpo__area-mensaje{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cuerpo__area-mensaje__muestra{
+    width:400px;
+    height: 200px;
+    border: none;
+    color: #000;
+    font-size: 2rem;
+    background-color: var(--color-secundario);
+    border-radius: 24px;
+    padding-left: 20px;
+}
+.cuerpo__area-mensaje__muestra:focus {
+    outline: none;
+}
+
+.cuerpo__area-mensaje__boton{
+    display: flex;
+    margin-top: 18px;
+    justify-content: center;
+}
+
+.btn-copiar{
+    background-color: var(--color-fondo);
+    border: 1px solid var(--color-principal);
+    border-radius: 24px;
+    color: var(--color-principal);
+    cursor: pointer;
+    text-decoration: none;
+    width: 30%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.btn-copiar:hover{
+    background-color: var(--color-secundario);
+}
+
+.pie-de-pagina{
+    color:var(--color-primaria);
+    background-color: var(--color-principal);
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--color-fondo);
+}
+
